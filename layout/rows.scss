@@ -1,0 +1,7 @@
+@mixin rows($gap) {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	//@include space-x($gap);
+	column-gap: rem($gap); //not support in old browser
+}

@@ -1,0 +1,22 @@
+{
+	"name": "@roger.b/styles",
+	"version": "0.0.1",
+	"description": "sass code boilerplate",
+	"main": "index.scss",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Carter2307/styles-packages.git"
+	},
+	"keywords": [
+		"styles"
+	],
+	"author": "roger bentcha",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Carter2307/styles-packages/issues"
+	},
+	"homepage": "https://github.com/Carter2307/styles-packages#readme"
+}

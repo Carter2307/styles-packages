@@ -1,0 +1,15 @@
+@mixin grid-col($end, $start) {
+	@if $start != "none" {
+		grid-column: $start / span $end;
+	} @else {
+		grid-column: span $end;
+	}
+}
+
+@mixin grid-row($end, $start) {
+	@if $start != "none" {
+		grid-row: $start / span $end;
+	} @else {
+		grid-row: span $end;
+	}
+}

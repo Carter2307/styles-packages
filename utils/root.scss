@@ -1,0 +1,21 @@
+@mixin injectColors($colors) {
+	& {
+		//Generate all color variables in document root
+		@each $color, $shade in $colors {
+			@each $prop, $value in $shade {
+				--clr-#{$color}-#{$prop}: #{$value};
+			}
+		}
+	}
+}
+
+@mixin injectShadows($shadow) {
+	& {
+		//Generate all elevation rules
+		@each $type, $deep in $shadow {
+			@each $key, $value in $deep {
+				--shadow-#{$type}-#{$key}: #{$value};
+			}
+		}
+	}
+}

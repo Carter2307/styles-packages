@@ -1,0 +1,6 @@
+@mixin collumns($gap) {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	row-gap: rem($gap); //not support in old browser
+}
