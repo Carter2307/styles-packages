@@ -166,6 +166,18 @@ ol[role="list"] {
 	padding: 0;
 }
 
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 1px;
+	text-overflow: "";
+}
+
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+
 //reset form zoom
 input[type="color"],
 input[type="date"],
