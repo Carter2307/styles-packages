@@ -113,22 +113,22 @@
 
 //Container
 @mixin container {
-	padding-right: rem(16px);
-	padding-left: rem(16px);
+	padding-right: rem(16);
+	padding-left: rem(16);
 
 	@include breakpoints("md") {
-		padding-right: rem(80px);
-		padding-left: rem(80px);
+		padding-right: rem(80);
+		padding-left: rem(80);
 	}
 
 	@include breakpoints("lg") {
-		padding-right: rem(96px);
-		padding-left: rem(96px);
+		padding-right: rem(96);
+		padding-left: rem(96);
 	}
 
 	@include breakpoints("xlg") {
-		padding-right: rem(128px);
-		padding-left: rem(128px);
+		padding-right: rem(128);
+		padding-left: rem(128);
 	}
 
 	@include breakpoints("2xlg") {

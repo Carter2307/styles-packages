@@ -1,0 +1,12 @@
+@mixin table-reset {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+@mixin table-auto {
+	table-layout: auto;
+}
+
+@mixin table-fixed {
+	table-layout: fixed;
+}
